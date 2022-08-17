@@ -1,0 +1,251 @@
+*{
+margin: 0;
+padding: 0;
+border: none;
+font-family: 'Abril Fatface', cursive;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    
+    color: whitesmoke;
+    
+}
+#particles-js{
+    z-index: 2;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:5px black;
+    cursor: default;
+}
+#para1{
+    width: 300px;
+    padding: 50px;
+    border: 5px ;
+    margin: 50px;
+    font-size: 20px;
+    
+}
+#image1{
+    width: 400px;
+    height:400px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+#youtubeLink{
+    width: 400px;
+    height: 400px;
+}
+#para2{
+    width: 300px;
+    padding: 50px;
+    border: 5px  white;
+    font-size: 20px;
+
+}
+.container2{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#para3{
+    width: 300px;
+    padding: 50px;
+    border: 5px white;
+    font-size: 20px;
+}
+#para1,#para2,#para3,#para4,#map{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor:default;
+}
+#image2{
+    width: 600px;
+    height: 400px;
+  margin: 20px;
+
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+#button{
+    display: flex;
+    justify-content: flex-end;
+}
+#button1{
+    padding :15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-radius: 5rem;
+    
+    bottom: 0px;
+    
+}
+#rightArrow{
+    width: 100px;
+    height: 50px;
+    font-size: 70px;
+    border-radius: 50%;
+    bottom: 5px;
+    background-color: black;
+}
+
+#button{
+    display: flex;
+    justify-content: flex-end;
+   
+    padding: 5px;
+    font-size: 20px;
+padding: 5px 15px;
+margin: 30px;
+font-weight: 400;
+color: whitesmoke;
+
+}
+
+#clickArrow{
+   color:whitesmoke;
+    font-size: 50px;
+    transition: all .5s;
+}
+#clickArrow:hover{
+    transform: translate(15px);
+overflow: hidden;
+
+}
+#moreInfo{
+      font-size: 30px;
+    }
+
+#goBack{
+    cursor: default;
+}
+.container4{
+    margin: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 5px solid whitesmoke;
+    font-size: 20px;
+    
+}
+#leftArrow{
+    display: flex;
+    
+ justify-content: flex-start;
+ align-items: flex-start;
+}
+.fa-solid{
+    color: whitesmoke;
+    font-size: 25px;
+   transition: all .5s;
+   cursor: pointer;
+
+}
+#goBack{
+    font-size: 20px;
+}
+#goBack{
+    font-size: 20px;
+}
+.fa-circle-arrow-right:hover{
+    transform: translate(5px);
+    font-size: 25px;
+    transition: all .5s;
+}
+.fa-circle-arrow-left{
+    transform: translate(-10px);
+}
+.fa-circle-arrow-left:hover{
+    
+    transform: translate(-15px);
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para4{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    border: 50px ;
+    margin: 50px;
+    font-size: 20px;
+    
+    float: left;
+}
+#map{
+    width: 510px;
+    height:350px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+  font-size: 25px;
+  padding: 5px;
+  width: 100%;
+  margin: 10px;
+  cursor: default;
+}
+/* .footer1{
+    display: flex;
+    align-items: center;
+
+} */
+.footer1{
+    display: flex;
+    justify-content: center;
+}
+#github{
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+text-decoration: underline;
+font-size: 40px;
+transform: all .5s;
+}
+.fa-github{
+    color:grey;
+    font-size: 50px;
+transform: all .5s;
+    float: left;
+}
+.fa-github:hover{
+    color: whitesmoke;
+   
+overflow: hidden;
+transform: all .5s;
+
+}
+#moreInfo{
+cursor: default;
+}
+
+#wikipedia{
+    cursor: default;
+}
