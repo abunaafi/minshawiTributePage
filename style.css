@@ -249,3 +249,39 @@ cursor: default;
 #wikipedia{
     cursor: default;
 }
+@media all and (max-width:426px){
+    .container,.container2,.container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #para1,#para2,#para3,#para4{
+        padding: 10px;
+        width: 200px;
+        margin: 10px;
+        height: auto;
+        font-size: 10px;
+    }
+   
+}
+@media only screen and (max-width: 769px){
+    .container,.container2,.container3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #para4{
+        width: 350px;
+        font-size: 15px;
+    }
+    #h1{
+        font-size: 20px;
+    }
+}
